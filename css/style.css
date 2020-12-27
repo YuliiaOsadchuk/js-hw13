@@ -1,0 +1,24 @@
+.text-wrapper{
+    padding: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    width: 15%;
+}
+.buttons-block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.buttons-block .changeButton{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background-color: rgba(123, 0, 43, 0.3);
+}
+
+.buttons-block .changeButton:hover{
+    border: 1px solid brown;
+}
